@@ -13,6 +13,8 @@ In here, we will get the value of the input tag and push it in the postsArr arra
 
 Create a function that will take postsArr as a parameter, use a for loop to go through all the elements in the array, and create a "p" tag for each element in the postsArr using document.createElement("p"). 
 
+Use postContainer.innerHTML = ""; to clear the container div.
+
 Use p.innerHTML = postsArr[i]; to set the text of the p tag to the text in the current postsArr[i] element.
 
 And then, use .appendChild on the postContainer variable, to add this newly created p tag to the div;
